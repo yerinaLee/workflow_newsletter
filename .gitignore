@@ -1,0 +1,10 @@
+# 환경 변수
+.env
+
+# n8n 런타임 데이터
+n8n_data/database.sqlite
+n8n_data/database.sqlite-shm
+n8n_data/database.sqlite-wal
+n8n_data/n8nEventLog*.log
+n8n_data/crash.journal
+n8n_data/storage/
