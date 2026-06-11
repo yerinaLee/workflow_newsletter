@@ -24,6 +24,7 @@ n8n을 Docker로 실행하여 뉴스레터를 자동 수집·발송하는 자동
 ```
 Schedule Trigger
     └─> HTTP Request (뉴스 사이트 크롤링)
+        └─> AI API (AI로 뉴스 주제 정리)
             └─> Code Node (HTML 파싱 / iconv-lite 인코딩 변환)
                     └─> Gmail (뉴스레터 발송)
 ```
